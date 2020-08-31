@@ -12,6 +12,6 @@ let server = http.createServer(function(req, res) {
         res.end('Not Found');
     }
 });
-server.listen(3000, () => {
-    console.log('后端服务器已经启动在 3000 端口啦！')
+server.listen(4000, () => {
+    console.log('后端服务器已经启动在 4000 端口啦！')
 });
